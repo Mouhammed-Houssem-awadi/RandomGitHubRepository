@@ -25,4 +25,4 @@ A web app that allows users to select a programming language and discover a **ra
 1. Clone or download the repository:
 
 ```bash
-git clone https://git clone https://github.com/your-username/github-random-repo-finder.git
+git clone https://github.com/Mouhammed-Houssem-awadi/RandomGitHubRepository.git
