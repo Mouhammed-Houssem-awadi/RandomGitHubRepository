@@ -15,15 +15,36 @@ A web app that allows users to select a programming language and discover a **ra
   - Forks 🍴
   - Open issues ❗
 - Refresh to see another random repository from the fetched list
-- Handles **loading**, **empty**, and **error** states gracefully
+- Handles **loading**, **empty**, and **error** states
 - Responsive design for mobile and desktop
 
 ---
 
-web link https://mouhammed-houssem-awadi.github.io/RandomGitHubRepository/
 ## Usage
 
-1. Clone or download the repository:
+1. Open the project in a web browser.
+2. Select a programming language from the dropdown menu.
+3. Click **"Find Repository"** to fetch and display a random repository.
+4. Use **"Refresh"** to display another random repository from the same batch.
+5. Use **"Clear"** to reset the results.
+
+---
+
+## Project URL
+
+Check out the live project here:  
+[GitHub Random Repository Finder](https://mouhammed-houssem-awadi.github.io/RandomGitHubRepository/)
+
+---
+
+## Installation (Optional)
+
+No special installation is required — this is a **pure HTML/JS/CSS project**.  
+If you want to avoid browser CORS issues when fetching JSON locally, run a simple local server:
+
+- Using **VSCode Live Server** (recommended)
+- Using Python:
 
 ```bash
-git clone https://github.com/Mouhammed-Houssem-awadi/RandomGitHubRepository.git
+# Python 3.x
+python -m http.server 8000
